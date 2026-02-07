@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cloth by DS - Your Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="logo">
+                    <h1>🛍️ cloth by DS</h1>
+                    <p>Your Online Store</p>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for products...">
+                    <button type="submit">🔍 Search</button>
+                </div>
+                <div class="header-actions">
+                    <a href="login.html" class="account">👤 Hello, Sign in</a>
+                    <div class="cart">
+                        <a href="#">🛒 Cart (<span id="cart-count">0</span>)</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container">
+                <ul class="nav-menu">
+                    <li><a href="#men">Men</a></li>
+                    <li><a href="#women">Women</a></li>
+                    <li><a href="#kids">Kids</a></li>
+                    <li><a href="#home-living">Home & Living</a></li>
+                    <li><a href="#beauty">Beauty</a></li>
+                    <li><a href="#studio">Studio</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Shop the Latest Trends</h1>
+            <p>Discover amazing products at unbeatable prices. Free shipping on orders over ₹1000.</p>
+            <a href="#products" class="btn-primary">Start Shopping</a>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=200&h=150&fit=crop" alt="Electronics">
+                    <h3>Electronics</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?w=200&h=150&fit=crop" alt="Fashion">
+                    <h3>Fashion</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=200&h=150&fit=crop" alt="Home & Garden">
+                    <h3>Home & Garden</h3>
+                </div>
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?w=200&h=150&fit=crop" alt="Sports">
+                    <h3>Sports</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=250&h=200&fit=crop" alt="Wireless Headphones">
+                    <div class="product-info">
+                        <h3>Wireless Headphones</h3>
+                        <div class="rating">★★★★☆ (4.2)</div>
+                        <p class="price">₹8,299</p>
+                        <button class="add-to-cart" data-price="8299">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=250&h=200&fit=crop" alt="Smartphone Case">
+                    <div class="product-info">
+                        <h3>Smartphone Case</h3>
+                        <div class="rating">★★★★★ (4.8)</div>
+                        <p class="price">₹1,659</p>
+                        <button class="add-to-cart" data-price="1659">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=250&h=200&fit=crop" alt="Laptop Stand">
+                    <div class="product-info">
+                        <h3>Laptop Stand</h3>
+                        <div class="rating">★★★★☆ (4.1)</div>
+                        <p class="price">₹4,149</p>
+                        <button class="add-to-cart" data-price="4149">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=250&h=200&fit=crop" alt="Bluetooth Speaker">
+                    <div class="product-info">
+                        <h3>Bluetooth Speaker</h3>
+                        <div class="rating">★★★★★ (4.7)</div>
+                        <p class="price">₹6,599</p>
+                        <button class="add-to-cart" data-price="6599">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=250&h=200&fit=crop" alt="USB Charger">
+                    <div class="product-info">
+                        <h3>USB Charger</h3>
+                        <div class="rating">★★★★☆ (4.3)</div>
+                        <p class="price">₹1,249</p>
+                        <button class="add-to-cart" data-price="1249">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=250&h=200&fit=crop" alt="Mouse Pad">
+                    <div class="product-info">
+                        <h3>Mouse Pad</h3>
+                        <div class="rating">★★★★☆ (4.0)</div>
+                        <p class="price">₹829</p>
+                        <button class="add-to-cart" data-price="829">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="cart-summary">
+                <p>Items in Cart: <span id="cart-count-summary">0</span></p>
+                <p>Total: ₹<span id="total-price">0.00</span></p>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Get to Know Us</h4>
+                    <ul>
+                        <li><a href="#">About cloth by DS</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press Releases</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Make Money with Us</h4>
+                    <ul>
+                        <li><a href="#">Sell on cloth by DS</a></li>
+                        <li><a href="#">Become an Affiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Let Us Help You</h4>
+                    <ul>
+                        <li><a href="#">Your Account</a></li>
+                        <li><a href="#">Returns Centre</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 cloth by DS. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="new_js.js"></script>
+</body>
+</html>
